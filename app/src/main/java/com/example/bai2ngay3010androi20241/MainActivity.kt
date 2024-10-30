@@ -48,7 +48,6 @@ class MainActivity : AppCompatActivity() {
             override fun onTextChanged(s: CharSequence?, start: Int, before: Int, count: Int) {
                 filter(s.toString())
             }
-
             override fun afterTextChanged(s: Editable?) {}
         })
     }
